@@ -1,0 +1,46 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-color: black;
+}
+
+.nav-flex {
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+    padding:0px 10px;
+    gap: 20px;
+  
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:20px;
+    
+}
+
+.flex2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    gap:20px;
+}
+    .flex3 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        gap:20px;
+    }
+
+
+#burger {
+    display: flex;
+    justify-content: flex-start;
+}
